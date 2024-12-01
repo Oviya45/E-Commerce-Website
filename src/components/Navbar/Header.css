@@ -1,0 +1,108 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1b1b1b;
+  color: rgb(227, 219, 219);
+  padding: 10px 20px;
+}
+
+.header-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Ajio Search Bar Styling */
+.search-bar {
+  position: absolute;
+  top: 5px;
+  left: 80px;
+  width: 300px; /* Adjust size as needed */
+  height: 40px;
+  display: flex;
+  align-items: center;
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  padding: 0 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 20px;
+  font-size: 1rem;
+  background: transparent;
+  outline: none;
+}
+
+.search-bar input::placeholder {
+  color: #888;
+}
+
+/* Ajio Logo inside the search bar */
+.search-bar .logo-container {
+  width: 5px;  /* Logo size */
+  margin-right: 10px;
+}
+
+.search-bar .logo-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Clear button inside the search bar (optional) */
+.search-bar .clear-button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: #888;
+  font-size: 1.2rem;
+  margin-left: 10px;
+}
+
+.search-bar .clear-button:hover {
+  color: #000;
+}
+
+
+.header-icons span {
+  margin: 0 10px;
+  cursor: pointer;
+}
+@media (max-width: 1024px) {
+  .search-bar {
+    width: 250px; 
+    left: 40px; 
+  }
+  .header-logo {
+    font-size: 22px; 
+  }
+}
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .search-bar {
+    width: 100%; 
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+  .header-logo {
+    font-size: 20px; 
+  }
+}
+@media (max-width: 400px) {
+  .search-bar {
+    height: 35px; 
+    width: 100%;
+  }
+  .header-logo {
+    font-size: 18px;
+  }
+}

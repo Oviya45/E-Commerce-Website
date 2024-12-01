@@ -1,0 +1,107 @@
+/* NewUserPerks Container */
+.new-user-perks {
+  background-color: #681818;
+  padding: 30px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.new-user-perks h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fefbfb;
+  margin-bottom: 20px;
+}
+
+.perks-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.perk {
+  background: linear-gradient(135deg, #f5b7b1, #f9e79f);
+  border-radius: 10px;
+  width: 30%;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 220px;
+  transition: transform 0.3s ease;
+}
+
+.perk:hover {
+  transform: translateY(-10px);
+}
+
+.perk h4 {
+  font-size: 22px;
+  color: #e74c3c;
+  margin-bottom: 10px;
+}
+
+.perk p {
+  font-size: 14px;
+  color: #141313;
+  margin-bottom: 15px;
+}
+
+.perk button {
+  padding: 10px 20px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.perk button:hover {
+  background-color: #c0392b;
+}
+
+.delivery-fee {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #f8f3f3;
+}
+
+@media (max-width: 1024px) {
+  .perks-container {
+    gap: 15px;
+  }
+  .perk {
+    width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .perk {
+    width: 100%;
+  }
+  .new-user-perks h2 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .perk h4 {
+    font-size: 18px;
+  }
+  .perk p {
+    font-size: 12px;
+  }
+  .perk button {
+    font-size: 12px;
+  }
+  .delivery-fee {
+    font-size: 14px;
+  }
+}

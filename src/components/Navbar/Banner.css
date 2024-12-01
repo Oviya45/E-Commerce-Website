@@ -1,0 +1,105 @@
+/* Banner.css */
+.banner {
+  background-image: url('https://media.licdn.com/dms/image/v2/D563DAQGjGzvtu7pBjA/image-scale_191_1128/image-scale_191_1128/0/1732856184696/ajiolife_cover?e=2147483647&v=beta&t=CMCmSTGsjG0kQ4F2wf0HtNqLuq2lQntY6sxWaHDmG-0');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+  padding: 5px;
+}
+
+.banner h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+  margin-bottom: 20px;
+}
+
+.banner p {
+  font-size: 1.2rem;
+  color: white;
+  margin-top: 10px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.banner .cta-button {
+  padding: 7px;
+  background-color: #e2001a; /* Ajio's red */
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  text-align:center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+  display:inline-block;
+}
+
+.banner .cta-button:hover {
+  background-color: #d00018; 
+}
+@media (max-width: 1024px) {
+  .banner {
+    height: 350px; 
+    padding: 10px;
+  }
+
+  .banner h1 {
+    font-size: 2.5rem; 
+    margin-bottom: 15px;
+  }
+
+  .banner p {
+    font-size: 1.1rem;
+  }
+
+  .banner .cta-button {
+    font-size: 1.1rem;
+    padding: 8px 16px;
+  }
+}
+@media (max-width: 600px) {
+  .banner {
+    height: 300px; 
+    padding: 15px;
+    background-size: cover; 
+    background-position: center; 
+  }
+
+  .banner h1 {
+    font-size: 2rem; 
+    margin-bottom: 10px;
+  }
+
+  .banner p {
+    font-size: 1rem; 
+  }
+  .banner .cta-button {
+    font-size: 1rem; 
+    padding: 7px 14px;
+  }
+}
+@media (max-width: 400px) {
+  .banner {
+    height: 250px; 
+  }
+
+  .banner h1 {
+    font-size: 1.5rem; 
+  }
+
+  .banner p {
+    font-size:0.9rem;
+  }
+
+  .banner .cta-button {
+    font-size: 0.9rem;
+    padding: 5px 10px;
+  }
+}
