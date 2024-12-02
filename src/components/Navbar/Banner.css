@@ -46,67 +46,77 @@
 }
 @media (max-width: 1024px) {
   .banner {
-    height: 90vh; /* Slight adjustment for tablets */
-    background-size: cover; /* Maintain visual beauty */
+    height: 100vh; /* Keep the height consistent */
+    background-size: cover; /* The image will still fill the space */
+    background-position: center center; /* Ensure the image is focused at the center */
   }
 
   .banner h1 {
-    font-size: 2.5rem; /* Scale heading size for tablets */
+    font-size: 2.5rem; /* Adjust font size for tablets */
   }
 
   .banner p {
-    font-size: 1rem; /* Slightly smaller text */
+    font-size: 1.1rem; /* Adjust text size */
   }
 
   .banner .cta-button {
     font-size: 1rem;
-    padding: 8px 16px;
+    padding: 8px 16px; /* Adjust padding */
   }
 }
+
 @media (max-width: 600px) {
   .banner {
-    height: 80vh; /* Adjust height for smaller screens */
-    background-size: contain; /* Avoid cropping the image */
-    padding: 15px; /* Add more padding for breathing space */
+    height: 100vh; /* Keep the height of the image */
+    background-size: cover; /* Maintain the full width and height of the image */
+    background-position: center center; /* Keep the image centered */
+    padding: 15px; /* Adjust padding for small screens */
   }
 
   .banner h1 {
-    font-size: 2rem; /* Resize heading */
+    font-size: 2rem; /* Resize the heading */
   }
 
   .banner p {
-    font-size: 0.9rem; /* Smaller description text */
+    font-size: 1rem; /* Adjust the description text size */
+  }
+
+  .banner .cta-button {
+    font-size: 1rem;
+    padding: 7px 14px; /* Adjust button size */
+  }
+}
+
+@media (max-width: 400px) {
+  .banner {
+    height: 100vh; /* Full height on small screens */
+    background-size: cover; /* Maintain the original image aspect */
+    background-position: center center; /* Focus on the center */
+    padding: 10px; /* Padding adjustment for extra small devices */
+  }
+
+  .banner h1 {
+    font-size: 1.5rem; /* Resize heading further */
+  }
+
+  .banner p {
+    font-size: 0.9rem; /* Smaller text for mobile devices */
   }
 
   .banner .cta-button {
     font-size: 0.9rem;
-    padding: 7px 14px;
-  }
-}
-@media (max-width: 400px) {
-  .banner {
-    height: 70vh; /* Optimize height for very small devices */
-    background-size: contain; /* Avoid distortion or cropping */
-    padding: 10px;
-  }
-
-  .banner h1 {
-    font-size: 1.5rem; /* Smaller headline */
-  }
-
-  .banner p {
-    font-size: 0.8rem; /* Reduce text size further */
-  }
-
-  .banner .cta-button {
-    font-size: 0.8rem;
-    padding: 5px 10px;
+    padding: 5px 10px; /* Adjust padding for smaller screens */
   }
 }
 
 
 
 
+
+
+
+
+ 
 
 
 
