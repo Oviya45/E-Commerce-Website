@@ -5,8 +5,7 @@ const Banner = () => {
   return (
     <section className="banner">
       <div>
-        <p>BIGGEST DEAL OF FASHION IS BACK!
-          SHOP NOW </p>
+       
         
         
         
