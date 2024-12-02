@@ -46,67 +46,67 @@
 }
 @media (max-width: 1024px) {
   .banner {
-    height: 100%; /* Ensure the height fills the viewport on smaller screens */
-    padding: 10px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+    height: 90vh; /* Slight adjustment for tablets */
+    background-size: cover; /* Maintain visual beauty */
   }
 
   .banner h1 {
-    font-size: 2.5rem;
-    margin-bottom: 15px;
+    font-size: 2.5rem; /* Scale heading size for tablets */
   }
 
   .banner p {
-    font-size: 1.1rem;
+    font-size: 1rem; /* Slightly smaller text */
   }
+
   .banner .cta-button {
-    font-size: 1.1rem;
+    font-size: 1rem;
     padding: 8px 16px;
   }
 }
 @media (max-width: 600px) {
   .banner {
-    height: 100%; /* Make the banner fill the viewport height */
-    padding: 15px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+    height: 80vh; /* Adjust height for smaller screens */
+    background-size: contain; /* Avoid cropping the image */
+    padding: 15px; /* Add more padding for breathing space */
   }
 
   .banner h1 {
-    font-size: 2rem;
-    margin-bottom: 10px;
+    font-size: 2rem; /* Resize heading */
   }
 
   .banner p {
-    font-size: 1rem;
+    font-size: 0.9rem; /* Smaller description text */
   }
+
   .banner .cta-button {
-    font-size: 1rem;
+    font-size: 0.9rem;
     padding: 7px 14px;
   }
 }
 @media (max-width: 400px) {
   .banner {
-    height: 100%; /* Ensures the banner occupies the full height */
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+    height: 70vh; /* Optimize height for very small devices */
+    background-size: contain; /* Avoid distortion or cropping */
+    padding: 10px;
   }
 
   .banner h1 {
-    font-size: 1.5rem;
+    font-size: 1.5rem; /* Smaller headline */
   }
 
   .banner p {
-    font-size: 0.9rem;
+    font-size: 0.8rem; /* Reduce text size further */
   }
 
   .banner .cta-button {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     padding: 5px 10px;
   }
-}   
-  
+}
+
+
+
+
+
+
+
