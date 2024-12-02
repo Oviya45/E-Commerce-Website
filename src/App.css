@@ -102,6 +102,7 @@ nav ul li a:hover {
 @media (max-width: 1200px) {
   .hero-section {
     padding: 40px 15px;
+    flex-direction: row;
   }
 
   .hero-section h1 {
@@ -120,6 +121,7 @@ nav ul li a:hover {
 @media (max-width: 768px) {
   .hero-section {
     padding: 30px 10px;
+    flex-direction: row;
   }
 
   .hero-section h1 {
@@ -138,6 +140,7 @@ nav ul li a:hover {
 @media (max-width: 480px) {
   .hero-section {
     padding: 20px 10px;
+    flex-direction: row;
   }
 
   .hero-section h1 {
