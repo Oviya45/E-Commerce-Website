@@ -48,7 +48,8 @@
   .banner {
     height: 100vh; /* Keep the height consistent */
     background-size: cover; /* The image will still fill the space */
-    background-position: center center; /* Ensure the image is focused at the center */
+    background-position: center; 
+    width:100%
   }
 
   .banner h1 {
@@ -69,8 +70,9 @@
   .banner {
     height: 100vh; /* Keep the height of the image */
     background-size: cover; /* Maintain the full width and height of the image */
-    background-position: center center; /* Keep the image centered */
-    padding: 15px; /* Adjust padding for small screens */
+    background-position: center 10px; /* Keep the image centered */
+    padding: 15px; 
+    width:100%/* Adjust padding for small screens */
   }
 
   .banner h1 {
@@ -91,8 +93,9 @@
   .banner {
     height: 100vh; /* Full height on small screens */
     background-size: cover; /* Maintain the original image aspect */
-    background-position: center center; /* Focus on the center */
-    padding: 10px; /* Padding adjustment for extra small devices */
+    background-position:  center; /* Focus on the center */
+    padding: 10px;
+    width:100%/* Padding adjustment for extra small devices */
   }
 
   .banner h1 {
