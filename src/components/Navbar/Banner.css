@@ -46,7 +46,7 @@
 }
 @media (max-width: 1024px) {
   .banner {
-    height: 350px;
+    height: 100%; /* Ensure the height fills the viewport on smaller screens */
     padding: 10px;
     background-size: contain;
     background-repeat: no-repeat;
@@ -61,16 +61,14 @@
   .banner p {
     font-size: 1.1rem;
   }
-
   .banner .cta-button {
     font-size: 1.1rem;
     padding: 8px 16px;
   }
 }
-
 @media (max-width: 600px) {
   .banner {
-    height: 300px;
+    height: 100%; /* Make the banner fill the viewport height */
     padding: 15px;
     background-size: contain;
     background-repeat: no-repeat;
@@ -85,16 +83,14 @@
   .banner p {
     font-size: 1rem;
   }
-
   .banner .cta-button {
     font-size: 1rem;
     padding: 7px 14px;
   }
 }
-
 @media (max-width: 400px) {
   .banner {
-    height: 250px;
+    height: 100%; /* Ensures the banner occupies the full height */
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -112,4 +108,5 @@
     font-size: 0.9rem;
     padding: 5px 10px;
   }
-}
+}   
+  
